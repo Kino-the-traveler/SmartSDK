@@ -1,0 +1,3 @@
+include ':smartview'
+include ':app'
+rootProject.name = "smartsdk"
