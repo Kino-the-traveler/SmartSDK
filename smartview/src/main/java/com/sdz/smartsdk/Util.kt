@@ -9,8 +9,8 @@ import android.webkit.WebSettings
 import android.webkit.WebView
 
 
-abstract class SmartBaseView(context: Context, attributeSet: AttributeSet) :
-    WebView(context, attributeSet) {
+abstract class SmartBaseView(context: Context) :
+    WebView(context) {
 
     var queryCOID: String? = null
         protected set

@@ -5,7 +5,7 @@ import android.net.Uri
 import android.util.AttributeSet
 import android.webkit.*
 
-open class SmartView(context: Context, attrs: AttributeSet) : SmartBaseView(context, attrs) {
+open class SmartView(context: Context) : SmartBaseView(context) {
     private val COID_TAG = "cust_offer_id"
 
     init {
